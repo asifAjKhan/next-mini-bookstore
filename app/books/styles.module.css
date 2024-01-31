@@ -1,0 +1,26 @@
+.coverImg{
+
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: rgb(189, 233, 218);
+
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    flex : 1;
+    align-items: center;
+    gap : 10px;
+    flex-basis: 20%
+    
+}
+
+.books{
+    margin-top: 100px;
+    display: flex;
+    gap : 10px;
+    flex-wrap: wrap;
+    
+}
